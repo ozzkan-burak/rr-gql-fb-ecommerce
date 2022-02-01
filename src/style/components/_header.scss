@@ -1,0 +1,12 @@
+.header {
+  height: 6.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  @include Display(flex);
+  .header-wrapper {
+    width: 13rem;
+    @include Display(flex, flex-end);
+    img{
+      height: 100%;
+    }
+  }
+}

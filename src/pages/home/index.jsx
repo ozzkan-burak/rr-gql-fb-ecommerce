@@ -1,7 +1,12 @@
+//conpoennts
+import Directory from "../../components/Directory";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <section>
+      <Directory />
+      HomePage
+    </section>
     );
 };
 
